@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KHAN-MD~", '');
+const sessdata = config.SESSION_ID.replace("SHEIKHALI-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `┏━━━━━━━━━━━━━━ \n┃𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃 𝐈𝐒\n┃𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘\n┃𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 ✅🔥\n┗━━━━━━━━━━━━━━━\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n1️⃣ || ᴄʀᴇᴀᴛᴏʀ = 𖥘⚡ 𝐀𝐋 𝐀𝐇𝐌𝐀𝐃•••²⁴⁰⁶ ⚡𖥘\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n2️⃣ || ᴏᴡɴᴇʀ = https://wa.me/923143702270\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n3️⃣ || ʀᴇᴘᴏ = https://github.com/Sheikh-ali-2412/SHEIKH-ALI-MD\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n4️⃣ || ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ = https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n5️⃣ || ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ = https://youtube.com/@sheikh-ali-2412?si=0WslRm5BX7pUymxX\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𓄂𝕚𝕥𝕩.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼ ♡ \n`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/juroe8.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/YdSKMhv/6767.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
