@@ -112,7 +112,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there KHAN-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet KHAN-MD WhatsApp Bot.\n\n *Thanks for using KHAN-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/JawadYTX/KHAN-XMD\n\n> © Powered BY JawadTechX \ud83d\udda4`;
+  let up = `┏━━━━━━━━━━━━━━ \n┃𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃 𝐈𝐒\n┃𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘\n┃𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 ✅🔥\n┗━━━━━━━━━━━━━━━\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n1️⃣ || ᴄʀᴇᴀᴛᴏʀ = 𖥘⚡ 𝐀𝐋 𝐀𝐇𝐌𝐀𝐃•••²⁴⁰⁶ ⚡𖥘\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n2️⃣ || ᴏᴡɴᴇʀ = https://wa.me/923143702270\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n3️⃣ || ʀᴇᴘᴏ = https://github.com/Sheikh-ali-2412/SHEIKH-ALI-MD\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n4️⃣ || ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ = https://whatsapp.com/channel/0029Vao1lnR1nozDF8jBNh3B\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n5️⃣ || ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ = https://youtube.com/@sheikh-ali-2412?si=0WslRm5BX7pUymxX\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𓄂𝕚𝕥𝕩.𝑺𝑯𝑬𝑰𝑲𝑯 𝑨𝑳𝑰 🔥༽༼ ♡ \n`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/juroe8.jpg` }, caption: up })
   }
   })
