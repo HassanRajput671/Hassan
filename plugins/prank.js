@@ -1,7 +1,7 @@
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "hack",
+    pattern: "scammer",
     desc: "Displays a dynamic and playful 'Hacking' message for fun.",
     category: "fun",
     filename: __filename
@@ -17,33 +17,16 @@ async (conn, mek, m, {
         }
 
         const steps = [
-            '💻 *HACK STARTING...* 💻',
+            '💻 *𝐒𝐂𝐀𝐌𝐌𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆...* 💻',
             
-            '*Initializing hacking tools...* 🛠️',
-            '*Connecting to remote servers...* 🌐',
+            'https://api.whatsapp.com/send?phone=923202231275&text=hi_scammer_you_are_a__big_bc_💋🥵_saly_scammer_tery_scam_ky_prof_bi_hain_hamary_pass💋🥵🫦',
+            'https://api.whatsapp.com/send?phone=447715929714&text=hi_scammer_you_are_a__big_bc_💋🥵_saly_scammer_tery_scam_ky_prof_bi_hain_hamary_pass💋🥵🫦',
             
-            '```[██████████] 10%``` ⏳'                                            ,
-            '```[███████████████████] 20%``` ⏳'                                   ,
-            '```[███████████████████████] 30%``` ⏳'                               ,
-            '```[██████████████████████████] 40%``` ⏳'                            ,
-            '```[███████████████████████████████] 50%``` ⏳'                       ,
-            '```[█████████████████████████████████████] 60%``` ⏳'                 ,
-            '```[██████████████████████████████████████████] 70%``` ⏳'            ,
-            '```[██████████████████████████████████████████████] 80%``` ⏳'        ,
-            '```[██████████████████████████████████████████████████] 90%``` ⏳'    ,
-            '```[████████████████████████████████████████████████████] 100%``` ✅',
+            'https://api.whatsapp.com/send?phone=923092342318&text=hi_scammer_you_are_a__big_bc_💋🥵_saly_scammer_tery_scam_ky_prof_bi_hain_hamary_pass💋🥵🫦'                                            ,
+            'https://api.whatsapp.com/send?phone=923094230218&text=hi_scammer_you_are_a__big_bc_💋🥵_saly_scammer_tery_scam_ky_prof_bi_hain_hamary_pass💋🥵🫦'                                   ,
+            'https://api.whatsapp.com/send?phone=923304093758&text=hi_scammer_you_are_a__big_bc_💋🥵_saly_scammer_tery_scam_ky_prof_bi_hain_hamary_pass💋🥵🫦'                               ,
             
-            '🔒 *System Breach: Successful!* 🔓',
-            '🚀 *Command Execution: Complete!* 🎯',
-            
-            '*📡 Transmitting data...* 📤',
-            '_🕵️‍♂️ Ensuring stealth..._ 🤫',
-            '*🔧 Finalizing operations...* 🏁',
-            
-            '⚠️ *Note:* All actions are for demonstration purposes only.',
-            '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
-            
-            '> *KHAN-MD-HACKING-COMPLETE ☣*'
+            '> *𝐒𝐇𝐄𝐈𝐊𝐇-𝐀𝐋𝐈-𝐌𝐃-𝐒𝐂𝐀𝐌𝐌𝐀𝐄𝐑 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍-𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄 ☣*'
         ];
 
         for (const line of steps) {
